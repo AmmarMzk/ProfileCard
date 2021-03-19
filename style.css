@@ -1,0 +1,104 @@
+body {
+  background-color: hsl(185, 75%, 39%);
+  background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+  background-position: -50% 175%, 140% -125%;
+  background-repeat: no-repeat;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+h1 {
+  color: hsl(229, 23%, 23%);
+  font-size: 18px;
+  margin-top: 0;
+}
+
+h3 {
+  color: hsl(227, 10%, 46%);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+h4 {
+  color: hsl(229, 23%, 23%);
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+h5 {
+  color: hsl(227, 10%, 46%);
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+
+span {
+  color: hsl(0, 0%, 59%);
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+a {
+  color: hsl(228, 45%, 44%);
+}
+
+.card {
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.3);
+  display: inline-block;
+  margin-top: 10%;
+  overflow: hidden;
+  width: 350px;
+}
+
+.bg-img {
+  width: 100%;
+}
+
+.profile-pic {
+  bottom: 50px;
+  border: solid 8px white;
+  border-radius: 100%;
+  position: relative;
+}
+
+.middle {
+  bottom: 30px;
+  position: relative;
+}
+
+.bottom {
+  border-top: solid 1px hsl(227, 10%, 46%);
+  display: inline-block;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.followers {
+  display: inline-block;
+  margin-left: 5%;
+  width: 25%;
+}
+
+.likes {
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 25%;
+}
+
+.photos {
+  display: inline-block;
+  margin-right: 5%;
+  width: 25%;
+}
+
+.attribution {
+  font-size: 11px;
+  margin-top: 50px;
+}
